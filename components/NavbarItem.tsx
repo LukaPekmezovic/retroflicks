@@ -1,15 +1,15 @@
 import { FC } from "react";
 
 interface NavbarItemProps {
-    label: string;
+  label: string;
 }
 
-const NavbarItem:FC<NavbarItemProps> = ({label}) => {
-    return (
-        <div className="text-white cursor-pointer hover:text-gray-300 transition">
-            {label}
-        </div>
-    )
+const NavbarItem: FC<NavbarItemProps> = ({ label }) => {
+  return (
+    <div className="text-white cursor-pointer hover:text-gray-300 transition">
+      {label}
+    </div>
+  );
 };
 
-export default NavbarItem
+export default NavbarItem;
