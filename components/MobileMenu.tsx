@@ -6,7 +6,7 @@ interface MobileMenuProps {
 
 const MobileMenu: FC<MobileMenuProps> = ({ visible }) => {
   if (!visible) {
-    return null;
+    return undefined;
   }
 
   return (

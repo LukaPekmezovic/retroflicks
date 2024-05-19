@@ -7,7 +7,7 @@ interface AccountMenuProps {
 
 const AccountMenu: FC<AccountMenuProps> = ({ visible }) => {
   if (!visible) {
-    return null;
+    return undefined;
   }
 
   return (
